@@ -1,0 +1,22 @@
+[
+  {"query": "用豆包生成一张猫的图片", "should_trigger": true},
+  {"query": "generate an image with seedream", "should_trigger": true},
+  {"query": "帮我用火山引擎生成一段视频", "should_trigger": true},
+  {"query": "用seedance生成一个5秒的视频", "should_trigger": true},
+  {"query": "generate a game sprite of a warrior using doubao", "should_trigger": true},
+  {"query": "用豆包的seedream模型生成一张废土风景", "should_trigger": true},
+  {"query": "create concept art for my game character with volcengine", "should_trigger": true},
+  {"query": "帮我生成一张像素风格的敌人图片，用doubao", "should_trigger": true},
+  {"query": "generate a 2K image of a desert landscape using seedream 5.0", "should_trigger": true},
+  {"query": "用豆包生成一个角色行走的视频", "should_trigger": true},
+  {"query": "fix this TypeScript compilation error in my React component", "should_trigger": false},
+  {"query": "generate an image with DALL-E 3", "should_trigger": false},
+  {"query": "use midjourney to create a character design", "should_trigger": false},
+  {"query": "write a Python function to sort a list", "should_trigger": false},
+  {"query": "help me debug this CSS layout issue", "should_trigger": false},
+  {"query": "create a new React component for the inventory screen", "should_trigger": false},
+  {"query": "generate pixel art with pixellab", "should_trigger": false},
+  {"query": "refactor the game engine systems", "should_trigger": false},
+  {"query": "add localization for the new quest dialog", "should_trigger": false},
+  {"query": "use stable diffusion to generate a texture", "should_trigger": false}
+]

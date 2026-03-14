@@ -1,0 +1,42 @@
+{
+  "skill_name": "doubao-image-video",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我用豆包生成一张后末日风格的装甲车图片，要有沙漠背景和戏剧性光影效果，保存到 ./test_outputs/vehicle.png",
+      "expected_output": "An image file saved to ./test_outputs/vehicle.png showing a post-apocalyptic armored vehicle in a desert setting",
+      "files": [],
+      "expectations": [
+        "The script generate_image.py was executed via uv run",
+        "The output file ./test_outputs/vehicle.png was created",
+        "The API response indicates success status",
+        "The prompt was written in a descriptive way suitable for image generation"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I need a pixel art game sprite of a raider character, top-down view, 64x64 pixels. Use Seedream 5.0 and save it to ./test_outputs/raider_sprite.png",
+      "expected_output": "A pixel art sprite image saved to ./test_outputs/raider_sprite.png",
+      "files": [],
+      "expectations": [
+        "The script generate_image.py was used with --version 5.0 flag",
+        "The prompt includes pixel art and game sprite related keywords",
+        "The output file ./test_outputs/raider_sprite.png was created",
+        "The size parameter was appropriate for the chosen version (2K or 3K for v5.0)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "用Seedance生成一个5秒的视频，内容是一辆改装卡车在废墟中穿行扬起灰尘，16:9比例，保存到 ./test_outputs/truck_video.mp4",
+      "expected_output": "A video generation task submitted, with task_id returned and instructions to poll for completion",
+      "files": [],
+      "expectations": [
+        "The script generate_video.py was executed via uv run",
+        "The duration was set to 5 seconds",
+        "The ratio was set to 16:9",
+        "A task_id was returned from the API",
+        "Instructions or a command to poll the task status were provided"
+      ]
+    }
+  ]
+}
