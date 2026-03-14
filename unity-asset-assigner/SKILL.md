@@ -1,6 +1,6 @@
 ---
 name: unity-asset-assigner
-description: "Automate Unity Asset Store seat/resource assignment for organizations. Use when the user asks to assign, allocate, or distribute Unity Asset Store resources/seats to team members in a Unity organization. Triggers on: 'assign unity assets', 'allocate unity seats', 'distribute unity resources', 'unity asset management', 'unity organization assets', '分配Unity资源', '分配席位', or any request involving bulk assignment of Unity Asset Store purchases to organization members. Also triggers when the user says something like '帮我把xx组织中的所有资源分配给xxx' or 'assign all assets to someone in my Unity org'. This skill requires the camoufox-cli skill as a dependency for anti-detect browser automation."
+description: "Automate Unity Asset Store seat/resource assignment for organizations. Use when the user asks to assign, allocate, or distribute Unity Asset Store resources/seats to team members in a Unity organization. Triggers on: 'assign unity assets', 'allocate unity seats', 'distribute unity resources', 'unity asset management', 'unity organization assets', '分配Unity资源', '分配席位', or any request involving bulk assignment of Unity Asset Store purchases to organization members. Also triggers when the user says something like '帮我把我的unity账户下 [org] 组织中的资源分配给 [person]' or 'assign all assets to someone in my Unity org'. This skill requires the camoufox-cli skill as a dependency for anti-detect browser automation."
 ---
 
 # Unity Asset Store Bulk Seat Assigner
@@ -15,7 +15,7 @@ Automates assigning Unity Asset Store resources to organization members via the 
 
 ## Quick Start
 
-When the user says something like "帮我把我的unity账户中组织名为 [org] 中的所有资源分配给 [person]", extract:
+When the user says something like "帮我把我的unity账户下 [org] 组织中的资源分配给 [person]", extract:
 1. **Organization slug** — the URL segment for the org (e.g., `thezygame`)
 2. **Target person** — the name or email of the person to assign to
 
